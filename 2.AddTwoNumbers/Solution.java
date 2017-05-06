@@ -35,6 +35,19 @@ public class Solution {
         return head.next;
     }
 
+	public static ListNode createList() {
+		ListNode head = new ListNode(0);
+		ListNode cur = head;
+		Scanner scanner = new Scanner(System.in);
+		while(scanner.hasNextInt()) {
+			int x = scanner.nextInt();
+			ListNode temp = new ListNode(x);
+			cur.next = temp;
+			cur = cur.next;
+		}
+		return head.next;
+	}
+
 	public static void printList(ListNode head) {
 		ListNode p = head;
 		while(p != null) {
@@ -45,16 +58,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ListNode l1 = new ListNode(2);
-		ListNode x = new ListNode(4);
-		ListNode y = new ListNode(3);
-		ListNode l2 = new ListNode(5);
-		ListNode m = new ListNode(6);
-		ListNode n = new ListNode(4);
-		l1.next = x;
-		x.next = y;
-		l2.next = m;
-		m.next = n;
+		ListNode l1 = createList();
+		ListNode l2 = createList();
 		ListNode head = addTwoNumbers(l1, l2);
 		printList(head);
 	}
