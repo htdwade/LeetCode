@@ -61,8 +61,8 @@ void printList(ListNode* head) {
 int main()
 {
     ListNode* l1 = createList();
-    cin.clear();//¸ü¸ÄcinµÄ×´Ì¬±êÊ¾·û
-    cin.sync();//Çå³ı»º´æÇøµÄÊı¾İÁ÷
+    cin.clear();//æ›´æ”¹cinçš„çŠ¶æ€æ ‡ç¤ºç¬¦
+    cin.sync();//æ¸…é™¤ç¼“å­˜åŒºçš„æ•°æ®æµ
     ListNode* l2 = createList();
     Solution solution;
     ListNode* head = solution.addTwoNumbers(l1,l2);
