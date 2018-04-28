@@ -21,30 +21,28 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int,int> hash;
-        vector<int> re;
-        for(int i = 0;i < nums.size();i++){
-            int numToFind = target-nums[i];
-            if(hash.find(numToFind)!=hash.end()){
-                re.push_back(hash[numToFind]);
-                re.push_back(i);
-                break;
+        unordered_map<int, int> hash;
+        vector<int> result;
+        for(int i = 0; i < nums.size(); i++){
+            int numToFind = target - nums[i];
+            if(hash.find(numToFind) != hash.end()){
+                result.push_back(hash[numToFind]);
+                result.push_back(i);
+                return result;
             }
             hash[nums[i]] = i;
         }
-        return re;
+        return result;
     }
 };
 
 int main()
 {
     Solution solution;
-    int a[4] = {2,7,11,15};
-    vector<int> nums(a,a+4);
-    vector<int>::iterator iter;
+    vector<int> nums = {2, 7, 11, 15};
     int target = 9;
-    vector<int> re = solution.twoSum(nums,target);
-    for(iter = re.begin();iter != re.end();iter++)
-        cout<<*iter<<"\t";
+    vector<int> re = solution.twoSum(nums, target);
+    for(auto a : re)
+        cout << a << '\t';
     return 0;
 }
