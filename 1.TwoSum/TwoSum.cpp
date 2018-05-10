@@ -23,9 +23,9 @@ public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int,int> hash;
         vector<int> re;
-        for(int i = 0;i < nums.size();i++){
-            int numToFind = target-nums[i];
-            if(hash.find(numToFind)!=hash.end()){
+        for(int i = 0; i < nums.size(); i++){
+            int numToFind = target - nums[i];
+            if(hash.find(numToFind) != hash.end()){
                 re.push_back(hash[numToFind]);
                 re.push_back(i);
                 break;
@@ -39,12 +39,10 @@ public:
 int main()
 {
     Solution solution;
-    int a[4] = {2,7,11,15};
-    vector<int> nums(a,a+4);
-    vector<int>::iterator iter;
+    vector<int> nums = {2, 7, 11, 15};
     int target = 9;
     vector<int> re = solution.twoSum(nums,target);
-    for(iter = re.begin();iter != re.end();iter++)
-        cout<<*iter<<"\t";
+    for(auto a : re)
+        cout << a << '\t';
     return 0;
 }
