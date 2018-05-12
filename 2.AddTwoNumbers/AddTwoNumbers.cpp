@@ -13,7 +13,6 @@ Output: 7 -> 0 -> 8
 
 using namespace std;
 
-
 struct ListNode {
     int val;
     ListNode* next;
@@ -25,14 +24,16 @@ public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode head(0);
         ListNode* cur = &head;
+        ListNode* p1 = l1;
+        ListNode* p2 = l2;
         int extra = 0;
-        while (l1 || l2 || extra ) {
-            int sum = (l1 ? l1->val : 0) + (l2 ? l2->val : 0) + extra;
+        while(p1 || p2 || extra){
+            int sum = (p1 ? p1 -> val : 0) + (p2 ? p2 -> val : 0) + extra;
             extra = sum / 10;
-            cur->next = new ListNode(sum % 10);
-            cur = cur->next;
-            if(l1) l1 = l1->next;
-            if(l2) l2 = l2->next;
+            cur -> next = new ListNode(sum % 10);
+            cur = cur -> next;
+            if(p1) p1 = p1 -> next;
+            if(p2) p2 = p2 -> next;
         }
         return head.next;
     }
