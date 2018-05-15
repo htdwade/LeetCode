@@ -31,10 +31,12 @@ public:
         if(strs.size() == 0)
             return "";
         string prefix = strs[0];
-        for(int i = 0; i < strs[0].size(); i++){
-            for(auto str : strs){
-                if(i >= str.size() || str[i] != prefix[i])
+        for(auto str : strs){
+            for(int i = 0; i < prefix.size(); i++){
+                if(i >= str.size() || str[i] != prefix[i]){
                     prefix = prefix.substr(0, i);
+                    break;
+                }
             }
         }
         return prefix;
