@@ -19,10 +19,9 @@ The median is (2 + 3)/2 = 2.5
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
-
-#define min(a,b) ((a) < (b)) ? (a) : (b)
 
 class Solution {
 public:
