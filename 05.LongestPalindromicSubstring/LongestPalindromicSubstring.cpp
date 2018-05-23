@@ -89,8 +89,8 @@ public:
             p[i] =  mx > i ? min(p[2 * id - i], mx - i) : 1;
             while(i - p[i] >= 0 && i + p[i] < n && t[i + p[i]] == t[i - p[i]])
                 p[i]++;
-            if(mx < i + p[i] - 1){
-                mx = i + p[i] - 1;
+            if(mx < i + p[i]){
+                mx = i + p[i];
                 id = i;
             }
             if(maxLen < p[i] - 1){
