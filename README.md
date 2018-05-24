@@ -9,6 +9,7 @@
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/03.LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.cpp)|O(n)|O(1)|Medium|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/04.MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.cpp)|O(log(m+n))|O(1)|Hard|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/05.LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)|O(n)|O(n)|Medium|
+|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/06.ZigZagConversion/ZigZagConversion.cpp)|O(n)|O(d)|Medium|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/07.ReverseInteger/ReverseInteger.cpp)|O(1)|O(1)|Easy|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/09.PalindromeNumber/PalindromeNumber.cpp)|O(1)|O(1)|Easy|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/13.RomanToInteger/RomanToInteger.cpp)|O(n)|O(1)|Easy|
