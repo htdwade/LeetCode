@@ -94,7 +94,7 @@ int main()
         cout << "s = " << vs[i] << endl;
         cout << "p = " << vp[i] << endl;
         cout << "Output: " << solution.isMatch1(vs[i], vp[i]) << endl;
-        cout << "Output: " << solution.isMatch1(vs[i], vp[i]) << endl;
+        cout << "Output: " << solution.isMatch2(vs[i], vp[i]) << endl;
     }
     return 0;
 }
