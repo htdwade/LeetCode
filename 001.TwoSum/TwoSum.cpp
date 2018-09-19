@@ -21,18 +21,18 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int,int> hash;
-        vector<int> re;
+        unordered_map<int, int> hash;
+        vector<int> result;
         for(int i = 0; i < nums.size(); i++){
             int numToFind = target - nums[i];
             if(hash.find(numToFind) != hash.end()){
-                re.push_back(hash[numToFind]);
-                re.push_back(i);
+                result.push_back(hash[numToFind]);
+                result.push_back(i);
                 break;
             }
             hash[nums[i]] = i;
         }
-        return re;
+        return result;
     }
 };
 
