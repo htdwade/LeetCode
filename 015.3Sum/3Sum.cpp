@@ -27,9 +27,11 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-        sort(nums.begin(),nums.end());
         vector<vector<int>> result;
+        sort(nums.begin(), nums.end());
         for(int i = 0; i < nums.size(); i++){
+            if(nums[i] > 0) 
+                break;
             int target = -nums[i];
             int start = i + 1;
             int end = nums.size() - 1;
@@ -39,11 +41,7 @@ public:
                 else if(nums[start] + nums[end] > target)
                     end--;
                 else{
-                    vector<int> temp;
-                    temp.push_back(nums[i]);
-                    temp.push_back(nums[start]);
-                    temp.push_back(nums[end]);
-                    result.push_back(temp);
+                    result.push_back({nums[i], nums[start], nums[end]});
                     start++;
                     end--;
                     while(start < end && nums[start] == nums[start - 1])
@@ -52,7 +50,7 @@ public:
                         end--;
                 }
             }
-            while(i + 1 < nums.size() && nums[i + 1] == nums[i])
+            while(i + 1 < nums.size() && nums[i] == nums[i + 1])
                 i++;
         }
         return result;

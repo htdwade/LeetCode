@@ -22,7 +22,7 @@ public:
         if(nums.size() < 3)
             return 0;
         sort(nums.begin(), nums.end());
-        int closet = nums[0] + nums[1] + nums[2];
+        int result = nums[0] + nums[1] + nums[2];
         for(int i = 0; i < nums.size(); i++){
             int start = i + 1;
             int end = nums.size() - 1;
@@ -34,11 +34,11 @@ public:
                     start++;
                 else
                     end--;
-                if(abs(sum - target) < abs(closet - target))
-                    closet = sum;
+                if(abs(sum - target) < abs(result - target))
+                    result = sum;
             }
         }
-        return closet;
+        return result;
     }
 };
 
