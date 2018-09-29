@@ -28,4 +28,5 @@
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/026.RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)||
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)||
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/167.TwoSumII/TwoSumII.cpp)|Two Pointers;Array|
+|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/345.ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Two Pointers|
 |633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/633.SumOfSquareNumbers/SumOfSquareNumbers.cpp)|Two Pointers;Math|
