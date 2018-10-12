@@ -29,10 +29,10 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)||
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/088.MergeSortedArray/MergeSortedArray.cpp)|Two Pointers|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/141.LinkedListCycle/LinkedListCycle.cpp)|Two Pointers|
-|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/167.TwoSumII/TwoSumII.cpp)|Two Pointers;Array|
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/167.TwoSumII/TwoSumII.cpp)|Two Pointers|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/215.KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|Sort|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/345.ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Two Pointers|
 |524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/524.LongestWordInDictionaryThroughDeleting/LongestWordInDictionaryThroughDeleting.cpp)|Two Pointers|
-|633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/633.SumOfSquareNumbers/SumOfSquareNumbers.cpp)|Two Pointers;Math|
+|633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/633.SumOfSquareNumbers/SumOfSquareNumbers.cpp)|Two Pointers|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/680.ValidPalindromeII/ValidPalindromeII.cpp)|Two Pointers|
 
