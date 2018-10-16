@@ -37,7 +37,10 @@ public:
 		int index = 0;
 		for (int i = 0; i < nums.size(); i++)
 			if (nums[i])
-				swap(nums[i], nums[index++]);
+				if (i != index)
+					swap(nums[i], nums[index++]);
+				else
+					index++;
 	}
 };
 
