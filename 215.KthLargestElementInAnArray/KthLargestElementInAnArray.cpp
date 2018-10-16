@@ -60,14 +60,14 @@ public:
 	}
 
 	int partition(vector<int>& nums, int left, int right) {
-		int i = left, j = right + 1;
+		int i = left + 1, j = right;
 		int pivot = nums[left];
 		while (true) {
-			while (nums[++i] < pivot && i < right);
-			while (nums[--j] > pivot && j > left);
+			while ( i <= right && nums[i] < pivot) i++;
+			while ( j >= left + 1 && nums[j] > pivot) j--;
 			if (i >= j)
 				break;
-			swap(nums[i], nums[j]);
+			swap(nums[i++], nums[j--]);
 		}
 		swap(nums[left], nums[j]);
 		return j;
