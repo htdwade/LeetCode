@@ -10,9 +10,9 @@
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/004.MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.cpp)||
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/005.LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)||
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/006.ZigZagConversion/ZigZagConversion.cpp)||
-|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/007.ReverseInteger/ReverseInteger.cpp)||
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/007.ReverseInteger/ReverseInteger.cpp)|Math|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/008.StringToInteger/StringToInteger.cpp)||
-|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/009.PalindromeNumber/PalindromeNumber.cpp)||
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/009.PalindromeNumber/PalindromeNumber.cpp)|Math|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/010.RegularExpressionMatching/RegularExpressionMatching.cpp)||
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/011.ContainerWithMostWater/ContainerWithMostWater.cpp)||
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/012.IntegerToRoman/IntegerToRoman.cpp)||
@@ -36,6 +36,7 @@
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/189.RotateArray/RotateArray.cpp)|Array|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/215.KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|Sort|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/283.MoveZeroes/MoveZeroes.cpp)|Two Pointers|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/344.ReverseString/ReverseString.cpp)|Two Pointers|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/345.ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Two Pointers|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/347.TopKFrequentElements/TopKFrequentElements.cpp)|Sort|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/451.SortCharactersByFrequency/SortCharactersByFrequency.cpp)|Sort|
