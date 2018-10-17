@@ -47,7 +47,7 @@ class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
 		int k = 2;
-		if (nums.size() < k)
+		if (nums.size() <= k)
 			return nums.size();
 		int index = k;
 		for (int i = k; i < nums.size(); i++)
