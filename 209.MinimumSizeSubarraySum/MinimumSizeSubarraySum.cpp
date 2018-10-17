@@ -30,7 +30,7 @@ public:
 		int minLen = INT_MAX;
 		while (right < nums.size()) {
 			sum += nums[right++];
-			while (sum >= s) {
+			while ( left < right && sum >= s) {
 				minLen = min(minLen, right - left);
 				sum -= nums[left++];
 			}
@@ -43,7 +43,7 @@ int main()
 {
 	Solution solution;
 	int s = 7;
-	vector<int> nums = { 2,3,1,2,4,3 };
+	vector<int> nums = {2,3,1,2,4,3};
 	cout << solution.minSubArrayLen(s, nums) << endl;
 	return 0;
 }
