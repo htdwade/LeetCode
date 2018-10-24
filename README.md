@@ -37,6 +37,7 @@
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/189.RotateArray/RotateArray.cpp)|Array|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/209.MinimumSizeSubarraySum/MinimumSizeSubarraySum.cpp)|Two Pointers滑动窗口|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/215.KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|堆，快速选择|
+|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/279.PerfectSquares/PerfectSquares.cpp)|BFS，DP|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/283.MoveZeroes/MoveZeroes.cpp)|Two Pointers|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/344.ReverseString/ReverseString.cpp)|Two Pointers|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/345.ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Two Pointers|
