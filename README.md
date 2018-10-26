@@ -44,6 +44,7 @@
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/344.ReverseString/ReverseString.cpp)|Two Pointers|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/345.ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Two Pointers|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/347.TopKFrequentElements/TopKFrequentElements.cpp)|堆，桶排序|
+|394|[Decode String](https://leetcode.com/problems/decode-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/394.DecodeString/DecodeString.cpp)|DFS|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/435.Non-overlappingIntervals/Non-overlappingIntervals.cpp)|Greedy|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/451.SortCharactersByFrequency/SortCharactersByFrequency.cpp)|桶排序|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[C++](452.MinimumNumberOfArrowsToBurstBalloons/MinimumNumberOfArrowsToBurstBalloons.cpp)|Greedy|
