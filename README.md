@@ -28,6 +28,7 @@
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/026.RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)|Two Pointers|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)|Two Pointers|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/075.SortColors/SortColors.cpp)|Three Pointers|
+|79|[Word Search](https://leetcode.com/problems/word-search/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/079.WordSearch/WordSearch.cpp)|DFS|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/080.RemoveDuplicatesFromSortedArrayII/RemoveDuplicatesFromSortedArrayII.cpp)|Two Pointers|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/088.MergeSortedArray/MergeSortedArray.cpp)|Two Pointers|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/095.UniqueBinarySearchTreesII/UniqueBinarySearchTreesII.cpp)|DFS|
@@ -53,5 +54,4 @@
 |633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/633.SumOfSquareNumbers/SumOfSquareNumbers.cpp)|Two Pointers|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/680.ValidPalindromeII/ValidPalindromeII.cpp)|Two Pointers|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/733.FloodFill/FloodFill.cpp)|DFS|
-||||
 
