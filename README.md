@@ -28,6 +28,7 @@
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/026.RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)|Two Pointers|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)|Two Pointers|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/075.SortColors/SortColors.cpp)|Three Pointers|
+|77|[Combinations](https://leetcode.com/problems/combinations/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/077.Combinations/Combinations.cpp)|DFS|
 |79|[Word Search](https://leetcode.com/problems/word-search/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/079.WordSearch/WordSearch.cpp)|DFS|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/080.RemoveDuplicatesFromSortedArrayII/RemoveDuplicatesFromSortedArrayII.cpp)|Two Pointers|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/088.MergeSortedArray/MergeSortedArray.cpp)|Two Pointers|
