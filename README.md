@@ -45,6 +45,7 @@
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/257.BinaryTreePaths/BinaryTreePaths.cpp)|DFS|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/279.PerfectSquares/PerfectSquares.cpp)|BFS，DP|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/283.MoveZeroes/MoveZeroes.cpp)|Two Pointers|
+|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/341.FlattenNestedListIterator/FlattenNestedListIterator.cpp)|DFS, Stack|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/344.ReverseString/ReverseString.cpp)|Two Pointers|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/345.ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Two Pointers|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/347.TopKFrequentElements/TopKFrequentElements.cpp)|堆，桶排序|
