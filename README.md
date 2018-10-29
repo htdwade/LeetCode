@@ -43,6 +43,7 @@
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/209.MinimumSizeSubarraySum/MinimumSizeSubarraySum.cpp)|Two Pointers滑动窗口|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/215.KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|堆，快速选择|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/257.BinaryTreePaths/BinaryTreePaths.cpp)|DFS|
+|268|[Missing Number](https://leetcode.com/problems/missing-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/268.MissingNumber/MissingNumber.cpp)|math|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/279.PerfectSquares/PerfectSquares.cpp)|BFS，DP|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/283.MoveZeroes/MoveZeroes.cpp)|Two Pointers|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/341.FlattenNestedListIterator/FlattenNestedListIterator.cpp)|DFS, Stack|
