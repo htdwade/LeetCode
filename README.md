@@ -32,6 +32,7 @@
 |79|[Word Search](https://leetcode.com/problems/word-search/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/079.WordSearch/WordSearch.cpp)|DFS|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/080.RemoveDuplicatesFromSortedArrayII/RemoveDuplicatesFromSortedArrayII.cpp)|Two Pointers|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/088.MergeSortedArray/MergeSortedArray.cpp)|Two Pointers|
+|93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/093.RestoreIPAddresses/RestoreIPAddresses.cpp)|DFS|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/095.UniqueBinarySearchTreesII/UniqueBinarySearchTreesII.cpp)|DFS|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/111.MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.cpp)|DFS，BFS|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/125.ValidPalindrome/ValidPalindrome.cpp)|Two Pointers|
