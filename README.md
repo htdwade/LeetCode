@@ -27,6 +27,7 @@
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/021.MergeTwoSortedLists/MergeTwoSortedLists.cpp)||
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/026.RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)|Two Pointers|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)|Two Pointers|
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/062.UniquePaths/UniquePaths.cpp)|DP, Math|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/075.SortColors/SortColors.cpp)|Three Pointers|
 |77|[Combinations](https://leetcode.com/problems/combinations/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/077.Combinations/Combinations.cpp)|DFS|
 |79|[Word Search](https://leetcode.com/problems/word-search/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/079.WordSearch/WordSearch.cpp)|DFS|
