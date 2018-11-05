@@ -43,6 +43,7 @@
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/200.NumberOfIslands/NumberOfIslands.cpp)|DFS|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/209.MinimumSizeSubarraySum/MinimumSizeSubarraySum.cpp)|Two Pointers滑动窗口|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/215.KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|堆，快速选择|
+|223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/223.RectangleArea/RectangleArea.cpp)|Math|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/257.BinaryTreePaths/BinaryTreePaths.cpp)|DFS|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/268.MissingNumber/MissingNumber.cpp)|math|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/279.PerfectSquares/PerfectSquares.cpp)|BFS，DP|
