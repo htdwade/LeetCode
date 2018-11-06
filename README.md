@@ -70,4 +70,5 @@
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/733.FloodFill/FloodFill.cpp)|DFS|
 |756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/756.PyramidTransitionMatrix/PyramidTransitionMatrix.cpp)|DFS|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/784.LetterCasePermutation/LetterCasePermutation.cpp)|DFS|
+|829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/829.ConsecutiveNumbersSum/ConsecutiveNumbersSum.cpp)|Math|
 
