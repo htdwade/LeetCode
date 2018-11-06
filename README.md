@@ -71,4 +71,5 @@
 |756|[Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/756.PyramidTransitionMatrix/PyramidTransitionMatrix.cpp)|DFS|
 |784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/784.LetterCasePermutation/LetterCasePermutation.cpp)|DFS|
 |829|[Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/829.ConsecutiveNumbersSum/ConsecutiveNumbersSum.cpp)|Math|
+|891|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/891.SumOfSubsequenceWidths/SumOfSubsequenceWidths.cpp)|Math|
 
