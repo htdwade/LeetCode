@@ -57,6 +57,7 @@
 |394|[Decode String](https://leetcode.com/problems/decode-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/394.DecodeString/DecodeString.cpp)|DFS|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/406.QueueReconstructionByHeight/QueueReconstructionByHeight.cpp)|Greedy|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/435.Non-overlappingIntervals/Non-overlappingIntervals.cpp)|Greedy|
+|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/442.FindAllDuplicatesInAnArray/FindAllDuplicatesInAnArray.cpp)|Array|
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/451.SortCharactersByFrequency/SortCharactersByFrequency.cpp)|桶排序|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)|[C++](452.MinimumNumberOfArrowsToBurstBalloons/MinimumNumberOfArrowsToBurstBalloons.cpp)|Greedy|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/455.AssignCookies/AssignCookies.cpp)|Greedy|
