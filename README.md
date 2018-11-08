@@ -48,6 +48,7 @@
 |268|[Missing Number](https://leetcode.com/problems/missing-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/268.MissingNumber/MissingNumber.cpp)|math|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/279.PerfectSquares/PerfectSquares.cpp)|BFS，DP|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/283.MoveZeroes/MoveZeroes.cpp)|Two Pointers|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/287.FindTheDuplicateNumber/FindTheDuplicateNumber.cpp)|Two Pointers, Binary Search|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/319.BulbSwitcher/BulbSwitcher.cpp)|Math|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/343.IntegerBreak/IntegerBreak.cpp)|Math|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/341.FlattenNestedListIterator/FlattenNestedListIterator.cpp)|DFS, Stack|
