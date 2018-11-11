@@ -42,19 +42,19 @@ public:
     bool isValid(string s) {
         stack<char> sta;
         for(auto c : s){
-            if(c == '(' || c == '{' || c == '['){
+            if(c == '(' || c == '{' || c == '[')
                 sta.push(c);
-                continue;
-               }
-            if(sta.empty())
-                return false;
-            if(c == ')' && sta.top() != '(')
-                return false;
-            if(c == '}' && sta.top() != '{')
-                return false;
-            if(c == ']' && sta.top() != '[')
-                return false;
-            sta.pop();
+            else{
+                if(sta.empty())
+                    return false;
+                if(c == ')' && sta.top() != '(')
+                    return false;
+                if(c == '}' && sta.top() != '{')
+                    return false;
+                if(c == ']' && sta.top() != '[')
+                    return false;
+                sta.pop();
+            }
         }
         return sta.empty();
     }

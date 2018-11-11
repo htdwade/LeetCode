@@ -33,7 +33,7 @@ public:
         string prefix = strs[0];
         for(auto str : strs){
             for(int i = 0; i < prefix.size(); i++){
-                if(i >= str.size() || str[i] != prefix[i]){
+                if(i == str.size() || str[i] != prefix[i]){
                     prefix = prefix.substr(0, i);
                     break;
                 }
