@@ -33,34 +33,58 @@ struct ListNode {
 
 class Solution {
 public:
-	ListNode* reverseKGroup(ListNode* head, int k) {
-		if (head == nullptr || k < 2)
-			return head;
-		ListNode* dummy = new ListNode(-1);
-		dummy->next = head;
-		ListNode* pre = dummy;
-		ListNode* cur = dummy->next;
-		ListNode* nex = nullptr;
-		int count = 0;
-		while (cur) {
-			count++;
-			cur = cur->next;
-		}
-		while (count >= k) {
-			cur = pre->next;
-			nex = cur->next;
-			for (int i = 1; i < k; i++) {
-				cur->next = nex->next;
-				nex->next = pre->next;
-				pre->next = nex;
-				nex = cur->next;
-			}
-			pre = cur;
-			count -= k;
-		}
-		return dummy->next;
-	}
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        if(head == nullptr || k < 2)
+            return head;
+        ListNode* cur =  head;
+        int count = 0;
+        while(cur && count < k){
+            cur = cur -> next;
+            count++;
+        }
+        if(count == k){
+            ListNode* nex = reverseKGroup(cur, k);
+            cur = head;
+            while(k--){
+                ListNode* tmp = cur -> next;
+                cur -> next = nex;
+                nex = cur;
+                cur = tmp;
+            }
+            return nex;
+        }
+        return head;
+    }
+    
+    ListNode* reverseKGroup2(ListNode* head, int k) {
+        if(head == nullptr || k < 2)
+            return head;
+        ListNode* dummy = new ListNode(-1);
+        dummy -> next = head;
+        ListNode* pre = dummy;
+        ListNode* cur = head;
+        ListNode* nex = nullptr;
+        int count = 0;
+        while(cur){
+            count++;
+            cur = cur -> next;
+        }
+        while(count >= k){
+            cur = pre -> next;
+            nex = cur -> next;
+            for(int i = 1; i < k; i++){
+                cur -> next = nex -> next;
+                nex -> next = pre -> next;
+                pre -> next = nex;
+                nex = cur -> next;
+            }
+            pre = cur;
+            count -= k; 
+        }
+        return dummy -> next;
+    }
 };
+
 int main()
 {
 	Solution solution;
@@ -73,7 +97,7 @@ int main()
 	p2->next = p3;
 	p3->next = p4;
 	p4->next = p5;
-	ListNode* head = solution.reverseKGroup(p1, 3);
+	ListNode* head = solution.reverseKGroup2(p1, 3);
 	while (head) {
 		cout << head->val << '\t';
 		head = head->next;
