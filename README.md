@@ -27,6 +27,7 @@
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/021.MergeTwoSortedLists/MergeTwoSortedLists.cpp)||
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/026.RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)|Two Pointers|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)|Two Pointers|
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/043.MultiplyStrings/MultiplyStrings.cpp)|模拟|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/062.UniquePaths/UniquePaths.cpp)|DP, Math|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/074.SearchA2DMatrix/SearchA2DMatrix.cpp)|Binary Search|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/075.SortColors/SortColors.cpp)|Three Pointers|
