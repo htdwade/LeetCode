@@ -27,6 +27,7 @@
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/021.MergeTwoSortedLists/MergeTwoSortedLists.cpp)||
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/026.RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)|Two Pointers|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)|Two Pointers|
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/031.NextPermutation/NextPermutation.cpp)|Array|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/043.MultiplyStrings/MultiplyStrings.cpp)|模拟|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/048.RotateImage/RotateImage.cpp)|Math|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/062.UniquePaths/UniquePaths.cpp)|DP, Math|
