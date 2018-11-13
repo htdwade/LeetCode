@@ -26,6 +26,7 @@
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/020.ValidParentheses/ValidParentheses.cpp)||
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/021.MergeTwoSortedLists/MergeTwoSortedLists.cpp)|LinkedList|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/023.MergeKSortedLists/MergeKSortedLists.cpp)|LinkedList|
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/025.ReverseNodesInK-Group/ReverseNodesInK-Group.cpp)|LinkedList|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/026.RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)|Two Pointers|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)|Two Pointers|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/031.NextPermutation/NextPermutation.cpp)|Array|
