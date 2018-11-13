@@ -30,6 +30,7 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)|Two Pointers|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/031.NextPermutation/NextPermutation.cpp)|Array|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/033.SearchInRotatedSortedArray/SearchInRotatedSortedArray.cpp)|Binary Search|
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/041.FirstMissingPositive/FirstMissingPositive.cpp)|Array|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/043.MultiplyStrings/MultiplyStrings.cpp)|模拟|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/048.RotateImage/RotateImage.cpp)|Math|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/062.UniquePaths/UniquePaths.cpp)|DP, Math|
