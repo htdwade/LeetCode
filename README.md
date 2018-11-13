@@ -24,7 +24,8 @@
 |18|[4Sum](https://leetcode.com/problems/4sum/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/018.4Sum/4Sum.cpp)||
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/019.RemoveNthNodeFromEndOfList/RemoveNthNodeFromEndOfList.cpp)||
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/020.ValidParentheses/ValidParentheses.cpp)||
-|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/021.MergeTwoSortedLists/MergeTwoSortedLists.cpp)||
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/021.MergeTwoSortedLists/MergeTwoSortedLists.cpp)|LinkedList|
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/023.MergeKSortedLists/MergeKSortedLists.cpp)|LinkedList|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/026.RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.cpp)|Two Pointers|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/027.RemoveElement/RemoveElement.cpp)|Two Pointers|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/031.NextPermutation/NextPermutation.cpp)|Array|
