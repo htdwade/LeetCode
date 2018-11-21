@@ -39,7 +39,7 @@ public:
         if(m > n)
             return findKthNum(nums2, beg2, n, nums1, beg1, m, k);
         if(m == 0)
-            return nums2[k-1];
+            return nums2[beg2 + k - 1];
         if(k == 1)
             return min(nums1[beg1], nums2[beg2]);
         int i = min(m, k/2);
