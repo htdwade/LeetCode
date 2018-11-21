@@ -4,9 +4,9 @@
 
 |#|Title|Solution|Tag|
 |---|---|---|---|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/#/description)|[C++](https://github.com/htdwade/LeetCode/blob/master/001.TwoSum/TwoSum.cpp)|Array|
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description)|[C++](https://github.com/htdwade/LeetCode/blob/master/002.AddTwoNumbers/AddTwoNumbers.cpp)||
-|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/003.LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.cpp)|Two Pointers滑动窗口|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/#/description)|[C++](https://github.com/htdwade/LeetCode/blob/master/001.TwoSum/TwoSum.cpp)|Array, Hash Table|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description)|[C++](https://github.com/htdwade/LeetCode/blob/master/002.AddTwoNumbers/AddTwoNumbers.cpp)|Linked List, Math|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/003.LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.cpp)|Hash Table, Two Pointers, String|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/004.MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.cpp)||
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/005.LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)||
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/006.ZigZagConversion/ZigZagConversion.cpp)||
