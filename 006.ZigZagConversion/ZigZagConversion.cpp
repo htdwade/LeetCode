@@ -36,23 +36,46 @@ using namespace std;
 class Solution {
 public:
     string convert(string s, int numRows) {
-        if( numRows <= 1)
+        if(s.empty() || numRows <= 0)
+            return "";
+        if(numRows == 1)
             return s;
-        vector<string> strs(numRows);
+        string res = "";
+        vector<string> rows(numRows);
         int row = 0;
-        int step = 0;
-        string re;
-        for(int i = 0; i < s.size(); i++){
-            strs[row].push_back(s[i]);
-            if(row == 0)
-                step = 1;
-            if(row == numRows - 1)
-                step = -1;
+        int step = -1;
+        for(auto c : s){
+            rows[row].push_back(c);
+            if(row == 0 || row == numRows - 1)
+                step = - step;
             row += step;
         }
-        for(int i = 0; i < numRows; i++)
-            re += strs[i];
-        return re;
+        for(auto t : rows)
+            res += t;
+        return res;
+    }
+
+    string convert2(string s, int numRows) {
+        if(s.empty() || numRows <= 0)
+            return "";
+        if(numRows == 1)
+            return s;
+        string res = "";
+        for(int i = 0; i < numRows; i++){
+            if(i == 0 || i == numRows - 1){
+                for(int j = i; j < s.size(); j += 2 * (numRows - 1))
+                    res += s[j];
+            }
+            else{
+                for(int j = i, k = 2 * numRows - 1 - i - 1; j < s.size() || k < s.size(); j += 2 * (numRows - 1), k += 2 * (numRows - 1)){
+                    if(j < s.size())
+                        res += s[j];
+                    if(k < s.size())
+                        res += s[k];
+                }
+            }
+        }
+        return res;
     }
 };
 
