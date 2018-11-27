@@ -49,9 +49,11 @@
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/111.MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.cpp)|DFS，BFS|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/125.ValidPalindrome/ValidPalindrome.cpp)|Two Pointers|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/141.LinkedListCycle/LinkedListCycle.cpp)|Two Pointers|
+|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/142.LinkedListCycleII/LinkedListCycleII.cpp)|Two Pointers|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/167.TwoSumII/TwoSumII.cpp)|Two Pointers|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/189.RotateArray/RotateArray.cpp)|Array|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/200.NumberOfIslands/NumberOfIslands.cpp)|DFS|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/206.ReverseLinkedList/ReverseLinkedList.cpp)|Linked List|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/209.MinimumSizeSubarraySum/MinimumSizeSubarraySum.cpp)|Two Pointers滑动窗口|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/215.KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|堆，快速选择|
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/223.RectangleArea/RectangleArea.cpp)|Math|
