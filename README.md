@@ -51,6 +51,7 @@
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/125.ValidPalindrome/ValidPalindrome.cpp)|Two Pointers|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/141.LinkedListCycle/LinkedListCycle.cpp)|Two Pointers|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/142.LinkedListCycleII/LinkedListCycleII.cpp)|Two Pointers|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](https://github.com/htdwade/LeetCode/blob/master/153.FindMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.cpp)|Binary Search|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/167.TwoSumII/TwoSumII.cpp)|Two Pointers|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/189.RotateArray/RotateArray.cpp)|Array|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/200.NumberOfIslands/NumberOfIslands.cpp)|DFS|
