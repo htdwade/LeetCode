@@ -62,6 +62,7 @@
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/215.KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|堆，快速选择|
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/223.RectangleArea/RectangleArea.cpp)|Math|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](https://github.com/htdwade/LeetCode/blob/master/225.ImplementStackUsingQueues/ImplementStackUsingQueues.cpp)|Queue|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[C++](https://github.com/htdwade/LeetCode/blob/master/231.PowerOfTwo/PowerOfTwo.cpp)|Bit|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[C++](https://github.com/htdwade/LeetCode/blob/master/232.ImplementQueueUsingStacks/ImplementQueueUsingStacks.cpp)|Stack|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/240.SearchA2DMatrixII/SearchA2DMatrixII.cpp)|Array|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/257.BinaryTreePaths/BinaryTreePaths.cpp)|DFS|
