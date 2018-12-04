@@ -16,7 +16,6 @@ Explanation: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36.
 
 */
 
-
 #include <iostream>
 
 using namespace std;
