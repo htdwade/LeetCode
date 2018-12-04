@@ -55,6 +55,7 @@
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/154.FindMinimumInRotatedSortedArrayII/FindMinimumInRotatedSortedArrayII.cpp)|Binary Search|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/167.TwoSumII/TwoSumII.cpp)|Two Pointers|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/189.RotateArray/RotateArray.cpp)|Array|
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](https://github.com/htdwade/LeetCode/blob/master/191.NumberOf1Bits/NumberOf1Bits.cpp)|Bit|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/200.NumberOfIslands/NumberOfIslands.cpp)|DFS|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/206.ReverseLinkedList/ReverseLinkedList.cpp)|Linked List|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/209.MinimumSizeSubarraySum/MinimumSizeSubarraySum.cpp)|Two Pointers滑动窗口|
