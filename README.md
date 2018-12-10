@@ -43,6 +43,8 @@
 |77|[Combinations](https://leetcode.com/problems/combinations/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/077.Combinations/Combinations.cpp)|DFS|
 |79|[Word Search](https://leetcode.com/problems/word-search/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/079.WordSearch/WordSearch.cpp)|DFS|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/080.RemoveDuplicatesFromSortedArrayII/RemoveDuplicatesFromSortedArrayII.cpp)|Two Pointers|
+|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/082.RemoveDuplicatesFromSortedListII/RemoveDuplicatesFromSortedListII.cpp)|Linked List|
+|83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/083.RemoveDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.cpp)|Linked List|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/088.MergeSortedArray/MergeSortedArray.cpp)|Two Pointers|
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/093.RestoreIPAddresses/RestoreIPAddresses.cpp)|DFS|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/095.UniqueBinarySearchTreesII/UniqueBinarySearchTreesII.cpp)|DFS|
@@ -65,6 +67,7 @@
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](https://github.com/htdwade/LeetCode/blob/master/225.ImplementStackUsingQueues/ImplementStackUsingQueues.cpp)|Queue|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[C++](https://github.com/htdwade/LeetCode/blob/master/231.PowerOfTwo/PowerOfTwo.cpp)|Bit|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[C++](https://github.com/htdwade/LeetCode/blob/master/232.ImplementQueueUsingStacks/ImplementQueueUsingStacks.cpp)|Stack|
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/237.DeleteNodeInALinkedList/DeleteNodeInALinkedList.cpp)|Linked List|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/240.SearchA2DMatrixII/SearchA2DMatrixII.cpp)|Array|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/257.BinaryTreePaths/BinaryTreePaths.cpp)|DFS|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/268.MissingNumber/MissingNumber.cpp)|math|
