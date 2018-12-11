@@ -56,15 +56,15 @@ using namespace std;
 class Solution {
 public:
     //递归
-    bool isMatch1(string s, string p) {
+    bool isMatch(string s, string p) {
        if(p.empty())
             return s.empty();
         if(p.size() == 1)
             return s.size() == 1 && (s[0] == p[0] || p[0] == '.');
         if(p[1] == '*')
-            return isMatch1(s, p.substr(2)) || (!s.empty() && (s[0] == p[0] || p[0] == '.') && isMatch1(s.substr(1), p));
+            return isMatch(s, p.substr(2)) || (!s.empty() && (s[0] == p[0] || p[0] == '.') && isMatch(s.substr(1), p));
         else
-            return !s.empty() && (s[0] == p[0] || p[0] == '.') && isMatch1(s.substr(1), p.substr(1));
+            return !s.empty() && (s[0] == p[0] || p[0] == '.') && isMatch(s.substr(1), p.substr(1));
     }
 
     //动态规划
@@ -93,7 +93,7 @@ int main()
         cout << "Input: " << endl;
         cout << "s = " << vs[i] << endl;
         cout << "p = " << vp[i] << endl;
-        cout << "Output: " << solution.isMatch1(vs[i], vp[i]) << endl;
+        cout << "Output: " << solution.isMatch(vs[i], vp[i]) << endl;
         cout << "Output: " << solution.isMatch2(vs[i], vp[i]) << endl;
     }
     return 0;
