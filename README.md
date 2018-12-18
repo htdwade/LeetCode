@@ -37,6 +37,7 @@
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/048.RotateImage/RotateImage.cpp)|Math|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](https://github.com/htdwade/LeetCode/blob/master/050.PowXN/PowXN.cpp)|Math|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/062.UniquePaths/UniquePaths.cpp)|DP, Math|
+|65|[Valid Number](https://leetcode.com/problems/valid-number/)|[C++](https://github.com/htdwade/LeetCode/blob/master/065.ValidNumber/ValidNumber.cpp)|String, Math|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](https://github.com/htdwade/LeetCode/blob/master/070.ClimbingStairs/ClimbingStairs.cpp)|Math|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/074.SearchA2DMatrix/SearchA2DMatrix.cpp)|Binary Search|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/075.SortColors/SortColors.cpp)|Three Pointers|
