@@ -59,6 +59,7 @@
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/142.LinkedListCycleII/LinkedListCycleII.cpp)|Two Pointers|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](https://github.com/htdwade/LeetCode/blob/master/153.FindMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.cpp)|Binary Search|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/154.FindMinimumInRotatedSortedArrayII/FindMinimumInRotatedSortedArrayII.cpp)|Binary Search|
+|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[C++](https://github.com/htdwade/LeetCode/blob/master/155.MinStack/MinStack.cpp)|Stack|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/167.TwoSumII/TwoSumII.cpp)|Two Pointers|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/189.RotateArray/RotateArray.cpp)|Array|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](https://github.com/htdwade/LeetCode/blob/master/191.NumberOf1Bits/NumberOf1Bits.cpp)|Bit|
