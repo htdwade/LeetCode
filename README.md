@@ -66,6 +66,7 @@
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/215.KthLargestElementInAnArray/KthLargestElementInAnArray.cpp)|堆，快速选择|
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/223.RectangleArea/RectangleArea.cpp)|Math|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](https://github.com/htdwade/LeetCode/blob/master/225.ImplementStackUsingQueues/ImplementStackUsingQueues.cpp)|Queue|
+|226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[C++](https://github.com/htdwade/LeetCode/blob/master/226.InvertBinaryTree/InvertBinaryTree.cpp)|Binary Tree|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[C++](https://github.com/htdwade/LeetCode/blob/master/231.PowerOfTwo/PowerOfTwo.cpp)|Bit|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[C++](https://github.com/htdwade/LeetCode/blob/master/232.ImplementQueueUsingStacks/ImplementQueueUsingStacks.cpp)|Stack|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/237.DeleteNodeInALinkedList/DeleteNodeInALinkedList.cpp)|Linked List|
