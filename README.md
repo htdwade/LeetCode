@@ -109,3 +109,4 @@
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/876.MiddleOfTheLinkedList/MiddleOfTheLinkedList.cpp)|Linked List|
 |891|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/891.SumOfSubsequenceWidths/SumOfSubsequenceWidths.cpp)|Math|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[C++](https://github.com/htdwade/LeetCode/blob/master/905.SortArrayByParity/SortArrayByParity.cpp)|Array|
+|946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[C++](https://github.com/htdwade/LeetCode/blob/master/946.ValidateStackSequences/ValidateStackSequences.cpp)|Stack|
