@@ -59,6 +59,7 @@
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[C++](https://github.com/htdwade/LeetCode/blob/master/112.PathSum/PathSum.cpp)|Binary Tree|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/113.PathSumII/PathSumII.cpp)|Binary Tree|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/125.ValidPalindrome/ValidPalindrome.cpp)|Two Pointers|
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](https://github.com/htdwade/LeetCode/blob/master/138.CopyListWithRandomPointer/CopyListWithRandomPointer.cpp)|Linked List|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/141.LinkedListCycle/LinkedListCycle.cpp)|Two Pointers|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/142.LinkedListCycleII/LinkedListCycleII.cpp)|Two Pointers|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](https://github.com/htdwade/LeetCode/blob/master/153.FindMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.cpp)|Binary Search|
