@@ -27,21 +27,21 @@ class Solution {
 public:
 	vector<vector<int>> combine(int n, int k) {
 		vector<vector<int>> res;
-		vector<int> temp;
-		dfs(res, temp, 0, 1, n, k);
+		vector<int> subset;
+		helper(res, subset, 1, n, k);
 		return res;
 	}
 
 private:
-	void dfs(vector<vector<int>>& res, vector<int>& temp, int count, int start, int n, int k) {
-		if (count == k) {
-			res.push_back(temp);
+	void helper(vector<vector<int>>& res, vector<int>& subset, int start, int n, int k) {
+		if (subset.size() == k) {
+			res.push_back(subset);
 			return;
 		}
 		for (int i = start; i <= n; i++) {
-			temp.push_back(i);
-			dfs(res, temp, count + 1, i + 1, n, k);
-			temp.pop_back();
+			subset.push_back(i);
+			helper(res, subset, i + 1, n, k);
+			subset.pop_back();
 		}
 	}
 };
@@ -49,7 +49,7 @@ private:
 int main()
 {
 	Solution solution;
-	vector<vector<int>> res = solution.combine(4,2);
+	vector<vector<int>> res = solution.combine(4, 2);
 	for (auto t : res) {
 		for (auto a : t)
 			cout << a << '\t';

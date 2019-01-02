@@ -34,6 +34,8 @@
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/033.SearchInRotatedSortedArray/SearchInRotatedSortedArray.cpp)|Binary Search|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/041.FirstMissingPositive/FirstMissingPositive.cpp)|Array|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/043.MultiplyStrings/MultiplyStrings.cpp)|模拟|
+|46|[Permutations](https://leetcode.com/problems/permutations/)|[C++](https://github.com/htdwade/LeetCode/blob/master/046.Permutations/Permutations.cpp)|dfs|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/047.PermutationsII/PermutationsII.cpp)|dfs|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/048.RotateImage/RotateImage.cpp)|Math|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](https://github.com/htdwade/LeetCode/blob/master/050.PowXN/PowXN.cpp)|Math|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](https://github.com/htdwade/LeetCode/blob/master/054.SpiralMatrix/SpiralMatrix.cpp)|Array|
@@ -42,12 +44,14 @@
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](https://github.com/htdwade/LeetCode/blob/master/070.ClimbingStairs/ClimbingStairs.cpp)|Math|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/074.SearchA2DMatrix/SearchA2DMatrix.cpp)|Binary Search|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/075.SortColors/SortColors.cpp)|Three Pointers|
-|77|[Combinations](https://leetcode.com/problems/combinations/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/077.Combinations/Combinations.cpp)|DFS|
+|77|[Combinations](https://leetcode.com/problems/combinations/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/077.Combinations/Combinations.cpp)|Backtracking|
+|78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](https://github.com/htdwade/LeetCode/blob/master/078.Subsets/Subsets.cpp)|Backtracking|
 |79|[Word Search](https://leetcode.com/problems/word-search/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/079.WordSearch/WordSearch.cpp)|DFS|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/080.RemoveDuplicatesFromSortedArrayII/RemoveDuplicatesFromSortedArrayII.cpp)|Two Pointers|
 |82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/082.RemoveDuplicatesFromSortedListII/RemoveDuplicatesFromSortedListII.cpp)|Linked List|
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/083.RemoveDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.cpp)|Linked List|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/088.MergeSortedArray/MergeSortedArray.cpp)|Two Pointers|
+|90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/090.SubsetsII/SubsetsII.cpp)|Backtracking|
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/093.RestoreIPAddresses/RestoreIPAddresses.cpp)|DFS|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/095.UniqueBinarySearchTreesII/UniqueBinarySearchTreesII.cpp)|DFS|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[C++](https://github.com/htdwade/LeetCode/blob/master/101.SymmetricTree/SymmetricTree.cpp)|Binary Tree|
