@@ -38,6 +38,8 @@
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/047.PermutationsII/PermutationsII.cpp)|dfs|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/048.RotateImage/RotateImage.cpp)|Math|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](https://github.com/htdwade/LeetCode/blob/master/050.PowXN/PowXN.cpp)|Math|
+|51|[N-Queens](https://leetcode.com/problems/n-queens/)|[C++](https://github.com/htdwade/LeetCode/blob/master/051.NQueens/NQueens.cpp)|Backtracking|
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/052.NQueensII/NQueensII.cpp)|Backtracking|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](https://github.com/htdwade/LeetCode/blob/master/054.SpiralMatrix/SpiralMatrix.cpp)|Array|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/062.UniquePaths/UniquePaths.cpp)|DP, Math|
 |65|[Valid Number](https://leetcode.com/problems/valid-number/)|[C++](https://github.com/htdwade/LeetCode/blob/master/065.ValidNumber/ValidNumber.cpp)|String, Math|
