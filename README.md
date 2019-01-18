@@ -91,6 +91,7 @@
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/279.PerfectSquares/PerfectSquares.cpp)|BFS，DP|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/283.MoveZeroes/MoveZeroes.cpp)|Two Pointers|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/287.FindTheDuplicateNumber/FindTheDuplicateNumber.cpp)|Two Pointers, Binary Search|
+|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[C++](https://github.com/htdwade/LeetCode/blob/master/295.FindMedianFromDataStream/FindMedianFromDataStream.cpp)|Heap|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[C++](https://github.com/htdwade/LeetCode/blob/master/297.SerializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.cpp)|Binary Tree|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/319.BulbSwitcher/BulbSwitcher.cpp)|Math|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/343.IntegerBreak/IntegerBreak.cpp)|Math|
