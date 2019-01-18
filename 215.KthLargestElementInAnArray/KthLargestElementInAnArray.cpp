@@ -1,6 +1,6 @@
 /*
 
-Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, 
+Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order,
 not the kth distinct element.
 
 Example 1:
@@ -28,25 +28,22 @@ using namespace std;
 
 class Solution {
 public:
-	//sort排序
+	//优先级队列最小堆 O(NlogK) + O(K)
 	int findKthLargest1(vector<int>& nums, int k) {
-		sort(nums.begin(), nums.end());
-		return nums[nums.size() - k];
-	}
-
-	//优先级队列
-	int findKthLargest2(vector<int>& nums, int k) {
-		priority_queue<int> pq(nums.begin(), nums.end());
-		for (int i = 0; i < k - 1; i++)
-			pq.pop();
+		priority_queue<int, vector<int>, greater<int>> pq;
+		for (auto a : nums) {
+			pq.push(a);
+			if (pq.size() > k)
+				pq.pop();
+		}
 		return pq.top();
 	}
 
-	//快速选择
-	int findKthLargest3(vector<int>& nums, int k) {
+	//快速选择 O(N) + O(1)
+	int findKthLargest2(vector<int>& nums, int k) {
 		int target = nums.size() - k + 1;
 		int left = 0, right = nums.size() - 1;
-		int index;
+		int index = 0;
 		while (left <= right) {
 			index = partition(nums, left, right);
 			if (index == target - 1)
@@ -62,57 +59,16 @@ public:
 	int partition(vector<int>& nums, int left, int right) {
 		int i = left + 1, j = right;
 		int pivot = nums[left];
-		while (true) {
-			while ( i <= right && nums[i] < pivot) i++;
-			while ( j >= left + 1 && nums[j] > pivot) j--;
-			if (i >= j)
-				break;
-			swap(nums[i++], nums[j--]);
+		while (i <= j) {
+			while (i <= right && nums[i] <= pivot) i++;
+			while (j > left && nums[j] >= pivot) j--;
+			if(i < j)
+				swap(nums[i++], nums[j--]);
 		}
 		swap(nums[left], nums[j]);
 		return j;
 	}
-
-	//堆排序
-	int findKthLargest4(vector<int>& nums, int k) {
-		build_max_heap(nums);
-		for (int i = 0; i < k - 1; i++) {
-			swap(nums[0], nums[heap_size - 1]);
-			heap_size--;
-			max_heapify(nums, 0);
-		}
-		return nums[0];
-	}
-
-	int heap_size;
 	
-	int left(int i) {
-		return (i << 1) + 1;
-	}
-
-	int right(int i) {
-		return (i << 1) + 2;
-	}
-
-	void max_heapify(vector<int>& nums, int i) {
-		int largest = i;
-		int l = left(i), r = right(i);
-		if (l < heap_size && nums[l] > nums[largest])
-			largest = l;
-		if (r < heap_size && nums[r] > nums[largest])
-			largest = r;
-		if (largest != i) {
-			swap(nums[largest], nums[i]);
-			max_heapify(nums, largest);
-		}
-	}
-
-	void build_max_heap(vector<int>& nums) {
-		heap_size = nums.size();
-		for (int i = (heap_size >> 1) - 1; i >= 0; i--)
-			max_heapify(nums, i);
-	}
-
 };
 
 int main()
@@ -122,13 +78,7 @@ int main()
 	int k1 = 2;
 	vector<int> nums2 = { 3,2,3,1,2,4,5,5,6 };
 	int k2 = 4;
-	//cout << solution.findKthLargest1(nums1, k1) << endl;
-	//cout << solution.findKthLargest1(nums2, k2) << endl;
-	//cout << solution.findKthLargest2(nums1, k1) << endl;
-	//cout << solution.findKthLargest2(nums2, k2) << endl;
-	//cout << solution.findKthLargest3(nums1, k1) << endl;
-	//cout << solution.findKthLargest3(nums2, k2) << endl;
-	cout << solution.findKthLargest4(nums1, k1) << endl;
-	cout << solution.findKthLargest4(nums2, k2) << endl;
+	cout << solution.findKthLargest1(nums1, k1) << endl;
+	cout << solution.findKthLargest2(nums2, k2) << endl;
 	return 0;
 }
