@@ -85,6 +85,7 @@
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[C++](https://github.com/htdwade/LeetCode/blob/master/226.InvertBinaryTree/InvertBinaryTree.cpp)|Binary Tree|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[C++](https://github.com/htdwade/LeetCode/blob/master/231.PowerOfTwo/PowerOfTwo.cpp)|Bit|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[C++](https://github.com/htdwade/LeetCode/blob/master/232.ImplementQueueUsingStacks/ImplementQueueUsingStacks.cpp)|Stack|
+|233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0233.NumberOfDigitOne/NumberOfDigitOne.cpp)|Math|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/237.DeleteNodeInALinkedList/DeleteNodeInALinkedList.cpp)|Linked List|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/240.SearchA2DMatrixII/SearchA2DMatrixII.cpp)|Array|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/257.BinaryTreePaths/BinaryTreePaths.cpp)|DFS|
