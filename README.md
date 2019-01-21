@@ -102,6 +102,7 @@
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/345.ReverseVowelsOfAString/ReverseVowelsOfAString.cpp)|Two Pointers|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/347.TopKFrequentElements/TopKFrequentElements.cpp)|堆，桶排序|
 |394|[Decode String](https://leetcode.com/problems/decode-string/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/394.DecodeString/DecodeString.cpp)|DFS|
+|400|[Nth Digit](https://leetcode.com/problems/nth-digit/)|[C++](https://github.com/htdwade/LeetCode/blob/master/400.NthDigit/NthDigit.cpp)|Math|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/406.QueueReconstructionByHeight/QueueReconstructionByHeight.cpp)|Greedy|
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[C++](https://github.com/htdwade/LeetCode/blob/master/415.AddStrings/AddStrings.cpp)|Math|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/435.Non-overlappingIntervals/Non-overlappingIntervals.cpp)|Greedy|
