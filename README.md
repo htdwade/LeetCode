@@ -55,6 +55,7 @@
 |83|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/083.RemoveDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.cpp)|Linked List|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/088.MergeSortedArray/MergeSortedArray.cpp)|Two Pointers|
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/090.SubsetsII/SubsetsII.cpp)|Backtracking|
+|91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](https://github.com/htdwade/LeetCode/blob/master/091.DecodeWays/DecodeWays.cpp)|Dynamic Programming|
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/093.RestoreIPAddresses/RestoreIPAddresses.cpp)|DFS|
 |95|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/095.UniqueBinarySearchTreesII/UniqueBinarySearchTreesII.cpp)|DFS|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[C++](https://github.com/htdwade/LeetCode/blob/master/101.SymmetricTree/SymmetricTree.cpp)|Binary Tree|
