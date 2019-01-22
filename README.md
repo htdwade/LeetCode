@@ -75,6 +75,7 @@
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[C++](https://github.com/htdwade/LeetCode/blob/master/155.MinStack/MinStack.cpp)|Stack|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/167.TwoSumII/TwoSumII.cpp)|Two Pointers|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[C++](https://github.com/htdwade/LeetCode/blob/master/169.MajorityElement/MajorityElement.cpp)|Array|
+|179|[Largest Number](https://leetcode.com/problems/largest-number/)|[C++](https://github.com/htdwade/LeetCode/blob/master/179.LargestNumber/LargestNumber.cpp)|Sort|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/189.RotateArray/RotateArray.cpp)|Array|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](https://github.com/htdwade/LeetCode/blob/master/191.NumberOf1Bits/NumberOf1Bits.cpp)|Bit|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/200.NumberOfIslands/NumberOfIslands.cpp)|DFS|
