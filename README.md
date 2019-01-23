@@ -92,12 +92,15 @@
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C++](https://github.com/htdwade/LeetCode/blob/master/237.DeleteNodeInALinkedList/DeleteNodeInALinkedList.cpp)|Linked List|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/240.SearchA2DMatrixII/SearchA2DMatrixII.cpp)|Array|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/257.BinaryTreePaths/BinaryTreePaths.cpp)|DFS|
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[C++](https://github.com/htdwade/LeetCode/blob/master/263.UglyNumber/UglyNumber.cpp)|Math|
+|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/264.UglyNumberII/UglyNumberII.cpp)|Math|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/268.MissingNumber/MissingNumber.cpp)|math|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/279.PerfectSquares/PerfectSquares.cpp)|BFS，DP|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/283.MoveZeroes/MoveZeroes.cpp)|Two Pointers|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/287.FindTheDuplicateNumber/FindTheDuplicateNumber.cpp)|Two Pointers, Binary Search|
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[C++](https://github.com/htdwade/LeetCode/blob/master/295.FindMedianFromDataStream/FindMedianFromDataStream.cpp)|Heap|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[C++](https://github.com/htdwade/LeetCode/blob/master/297.SerializeAndDeserializeBinaryTree/SerializeAndDeserializeBinaryTree.cpp)|Binary Tree|
+|313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|[C++](https://github.com/htdwade/LeetCode/blob/master/313.SuperUglyNumber/SuperUglyNumber.cpp)|Math|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/319.BulbSwitcher/BulbSwitcher.cpp)|Math|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/343.IntegerBreak/IntegerBreak.cpp)|Math|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/341.FlattenNestedListIterator/FlattenNestedListIterator.cpp)|DFS, Stack|
