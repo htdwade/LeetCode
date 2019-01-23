@@ -43,6 +43,7 @@
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](https://github.com/htdwade/LeetCode/blob/master/053.MaximumSubarray/MaximumSubarray.cpp)|Dynamic Programming|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](https://github.com/htdwade/LeetCode/blob/master/054.SpiralMatrix/SpiralMatrix.cpp)|Array|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/062.UniquePaths/UniquePaths.cpp)|DP, Math|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[C++](https://github.com/htdwade/LeetCode/blob/master/064.MinimumPathSum/MinimumPathSum.cpp)|Dynamic Programming|
 |65|[Valid Number](https://leetcode.com/problems/valid-number/)|[C++](https://github.com/htdwade/LeetCode/blob/master/065.ValidNumber/ValidNumber.cpp)|String, Math|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](https://github.com/htdwade/LeetCode/blob/master/070.ClimbingStairs/ClimbingStairs.cpp)|Math|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/074.SearchA2DMatrix/SearchA2DMatrix.cpp)|Binary Search|
