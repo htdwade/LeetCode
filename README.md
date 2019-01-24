@@ -74,6 +74,7 @@
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](https://github.com/htdwade/LeetCode/blob/master/153.FindMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.cpp)|Binary Search|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[C++](https://github.com/htdwade/LeetCode/blob/master/154.FindMinimumInRotatedSortedArrayII/FindMinimumInRotatedSortedArrayII.cpp)|Binary Search|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[C++](https://github.com/htdwade/LeetCode/blob/master/155.MinStack/MinStack.cpp)|Stack|
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C++](https://github.com/htdwade/LeetCode/blob/master/160.IntersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.cpp)|Linked List|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/167.TwoSumII/TwoSumII.cpp)|Two Pointers|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[C++](https://github.com/htdwade/LeetCode/blob/master/169.MajorityElement/MajorityElement.cpp)|Array|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/)|[C++](https://github.com/htdwade/LeetCode/blob/master/179.LargestNumber/LargestNumber.cpp)|Sort|
