@@ -88,6 +88,7 @@
 |223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/223.RectangleArea/RectangleArea.cpp)|Math|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](https://github.com/htdwade/LeetCode/blob/master/225.ImplementStackUsingQueues/ImplementStackUsingQueues.cpp)|Queue|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[C++](https://github.com/htdwade/LeetCode/blob/master/226.InvertBinaryTree/InvertBinaryTree.cpp)|Binary Tree|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[C++](https://github.com/htdwade/LeetCode/blob/master/230.KthSmallestElementInABST/KthSmallestElementInABST.cpp)|Binary Tree|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[C++](https://github.com/htdwade/LeetCode/blob/master/231.PowerOfTwo/PowerOfTwo.cpp)|Bit|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[C++](https://github.com/htdwade/LeetCode/blob/master/232.ImplementQueueUsingStacks/ImplementQueueUsingStacks.cpp)|Stack|
 |233|[Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)|[C++](https://github.com/htdwade/LeetCode/blob/master/233.NumberOfDigitOne/NumberOfDigitOne.cpp)|Math|
