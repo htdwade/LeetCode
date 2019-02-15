@@ -4,7 +4,7 @@
 
 |#|Title|Solution|Tag|Time|Space|Note|
 |---|---|---|---|---|---|---|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0001.TwoSum/TwoSum.cpp)|Array, Hash Table|O(n)|O(n)|[Note](https://github.com/htdwade/LeetCode/blob/master/0001.TwoSum/Note.cpp)|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0001.TwoSum/TwoSum.cpp)|Array, Hash Table|O(n)|O(n)|[Note](https://github.com/htdwade/LeetCode/blob/master/0001.TwoSum/Note.md)|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description)|[C++](https://github.com/htdwade/LeetCode/blob/master/002.AddTwoNumbers/AddTwoNumbers.cpp)|Linked List, Math|O(max(m,n))|O(max(m,n))|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/003.LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.cpp)|Hash Table, Two Pointers, String|o(n)|o(m)|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/004.MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.cpp)|Array, Binary Search, Divide and Conquer|O(log(m + n))|O(1)|
