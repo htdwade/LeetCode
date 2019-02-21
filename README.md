@@ -2,15 +2,15 @@
 
 > Content Directory
 
-|#|Title|Solution|Tag|Time|Space|Note|
-|---|---|---|---|---|---|---|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0001.TwoSum/TwoSum.cpp)|Array, Hash Table|O(n)|O(n)|[Note](https://github.com/htdwade/LeetCode/blob/master/0001.TwoSum/Note.md)|
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description)|[C++](https://github.com/htdwade/LeetCode/blob/master/002.AddTwoNumbers/AddTwoNumbers.cpp)|Linked List, Math|O(max(m,n))|O(max(m,n))|
-|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/003.LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.cpp)|Hash Table, Two Pointers, String|o(n)|o(m)|
-|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/004.MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.cpp)|Array, Binary Search, Divide and Conquer|O(log(m + n))|O(1)|
-|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/005.LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)|String, Dynamic Programming|O(n)|O(1)|
-|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/006.ZigZagConversion/ZigZagConversion.cpp)|String|O(n)|o(m)|
-|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/007.ReverseInteger/ReverseInteger.cpp)|Math|O(log(x)|O(1)|
+|#|Title|Solution|Tag|
+|---|---|---|---|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0001.TwoSum/TwoSum.cpp)|Array, Hash Table|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0002.AddTwoNumbers/AddTwoNumbers.cpp)|Linked List, Math|
+|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0003.LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.cpp)|Hash Table, Two Pointers, String|
+|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0004.MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.cpp)|Array, Binary Search, Divide and Conquer|
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0005.LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)|String, Dynamic Programming|
+|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0006.ZigZagConversion/ZigZagConversion.cpp)|String|
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0007.ReverseInteger/ReverseInteger.cpp)|Math|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/008.StringToInteger/StringToInteger.cpp)|String|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/009.PalindromeNumber/PalindromeNumber.cpp)|Math|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/010.RegularExpressionMatching/RegularExpressionMatching.cpp)||
