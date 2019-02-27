@@ -11,7 +11,7 @@
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0005.LongestPalindromicSubstring/LongestPalindromicSubstring.cpp)|String, Dynamic Programming|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0006.ZigZagConversion/ZigZagConversion.cpp)|String|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C++](https://github.com/htdwade/LeetCode/blob/master/0007.ReverseInteger/ReverseInteger.cpp)|Math|
-|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/008.StringToInteger/StringToInteger.cpp)|String|
+|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](https://github.com/htdwade/LeetCode/blob/master/008.StringToInteger/StringToInteger.cpp)|String|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/009.PalindromeNumber/PalindromeNumber.cpp)|Math|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/010.RegularExpressionMatching/RegularExpressionMatching.cpp)||
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|[C++](https://github.com/htdwade/LeetCode/blob/master/011.ContainerWithMostWater/ContainerWithMostWater.cpp)|Two Pointers|
