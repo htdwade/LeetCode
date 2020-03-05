@@ -19,7 +19,7 @@ minStack.getMin();   --> 返回 -2.
 
 */
 
-package problem0155
+package MinStack
 
 import "C"
 

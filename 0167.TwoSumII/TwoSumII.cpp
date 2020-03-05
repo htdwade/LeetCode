@@ -1,55 +1,43 @@
 /*
 
-Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
+给定一个已按照升序排列 的有序数组，找到两个数使得它们相加之和等于目标数。
 
-The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2.
+函数应该返回这两个下标值 index1 和 index2，其中 index1 必须小于 index2。
 
-Note:
+说明:
 
-Your returned answers (both index1 and index2) are not zero-based.
-You may assume that each input would have exactly one solution and you may not use the same element twice.
-Example:
+返回的下标值（index1 和 index2）不是从零开始的。
+你可以假设每个输入只对应唯一的答案，而且你不可以重复使用相同的元素。
+示例:
 
-Input: numbers = [2,7,11,15], target = 9
-Output: [1,2]
-Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
+输入: numbers = [2, 7, 11, 15], target = 9
+输出: [1,2]
+解释: 2 与 7 之和等于目标数 9 。因此 index1 = 1, index2 = 2 。
 
 */
 
-
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 class Solution {
 public:
-	vector<int> twoSum(vector<int>& numbers, int target) {
-		vector<int> result;
-		int left = 0, right = numbers.size() - 1;
-		while (left < right) {
-			if (numbers[left] + numbers[right] == target)
-			{
-				result.push_back(left + 1);
-				result.push_back(right + 1);
-				return result;
-			}
-			else if (numbers[left] + numbers[right] < target)
-				left++;
-			else
-				right--;
-		}
-		return result;
-	}
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        vector<int> result;
+        int left = 0, right = numbers.size() - 1;
+        while(left < right){
+            if(numbers[left] + numbers[right] == target)
+            {
+                result.push_back(left + 1);
+                result.push_back(right + 1);
+                return result;
+            }
+            else if(numbers[left] + numbers[right] < target)
+                left++;
+            else
+                right--;
+        }
+        return result;
+    }
 };
 
-int main()
-{
-	Solution solution;
-	vector<int> numbers = { 2, 7, 11, 15 };
-	int target = 9;
-	vector<int> result = solution.twoSum(numbers, target);
-	for (auto index : result)
-		cout << index << '\t';
-	return 0;
-}
