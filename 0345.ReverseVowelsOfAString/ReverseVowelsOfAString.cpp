@@ -1,48 +1,41 @@
 /*
 
-Write a function that takes a string as input and reverse only the vowels of a string.
+编写一个函数，以字符串作为输入，反转该字符串中的元音字母。
 
-Example 1:
+示例 1:
 
-Input: "hello"
-Output: "holle"
-Example 2:
+输入: "hello"
+输出: "holle"
+示例 2:
 
-Input: "leetcode"
-Output: "leotcede"
-Note:
-The vowels does not include the letter "y".
+输入: "leetcode"
+输出: "leotcede"
+说明:
+元音字母不包含字母"y"。
 
 */
 
 
-#include <iostream>
-#include <unordered_set>
-#include <string>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 class Solution {
 public:
-	string reverseVowels(string s) {
-		unordered_set<char> vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
-		int i = 0, j = s.size() - 1;
-		while (i < j) {
-			while (i < j && vowels.find(s[i]) == vowels.end())
-				i++;
-			while (i < j && vowels.find(s[j]) == vowels.end())
-				j--;
-			if (i < j)
-				swap(s[i++], s[j--]);
-		}
-		return s;
-	}
+    string reverseVowels(string s) {
+        if(s.size() == 0)
+            return s;
+        string vowels = "aeiouAEIOU";
+        int i = 0, j = s.size() - 1;
+        while(i < j){
+            while(i < j && vowels.find(s[i]) == string::npos)
+                i++;
+            while(i < j && vowels.find(s[j]) == string::npos)
+                j--;
+            if(i < j)
+                swap(s[i++], s[j--]);
+        }
+        return s;
+    }
 };
 
-int main()
-{
-	Solution solution;
-	cout << solution.reverseVowels("hello") << endl;
-	cout << solution.reverseVowels("leetcode") << endl;
-	return 0;
-}
