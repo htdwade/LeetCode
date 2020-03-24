@@ -43,7 +43,7 @@ public:
 };
 ```
 
-### java
+### Java
 
 ```java
 class Solution {
