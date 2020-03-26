@@ -1,0 +1,54 @@
+# 283. 移动零
+
+## 题目描述
+
+给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
+
+示例:
+```java
+输入: [0,1,0,3,12]
+输出: [1,3,12,0,0]
+```
+说明:
+* 必须在原数组上操作，不能拷贝额外的数组。
+* 尽量减少操作次数。
+
+## 解题思想
+
+双指针思想。index指针用来维护非零值窗口的右边界，i指针用来遍历数组，碰到非0值就交换nums[i]和nums[index]的值。
+
+## 解题代码
+
+### C++
+
+```cpp
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        // [0...index)维护非0值窗口
+        int index = 0;
+		for (int i = 0; i < nums.size(); i++)
+			if (nums[i] != 0)
+                swap(nums[i], nums[index++]);
+    }
+};
+```
+
+### Java
+
+```java
+class Solution {
+    public void moveZeroes(int[] nums) {
+        // [0...index)窗口维护非0元素
+        int index = 0;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] != 0){
+                int temp = nums[i];
+                nums[i] = nums[index];
+                nums[index] = temp;
+                index++;
+            }
+        }
+    }
+}
+```
