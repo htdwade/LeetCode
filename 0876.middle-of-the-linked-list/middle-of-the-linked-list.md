@@ -30,38 +30,11 @@ ans.val = 3, ans.next.val = 4, ans.next.next.val = 5, 以及 ans.next.next.next 
 
 * 给定链表的结点数介于 1 和 100 之间。
 
-## 解题思想
+## 解题思路
 
 快慢指针法。用两个指针 slow 与 fast 一起遍历链表。slow 一次走一步，fast 一次走两步。那么当 fast 到达链表的末尾时，slow 必然位于中间。
 
 ## 解题代码
-
-### C++
-
-```cpp
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
-class Solution {
-public:
-    ListNode* middleNode(ListNode* head) {
-        if(head == nullptr)
-            return nullptr;
-        ListNode* fast = head;
-        ListNode* slow = head;
-        while(fast != nullptr && fast -> next != nullptr){
-            fast = fast -> next -> next;
-            slow = slow -> next;
-        }
-        return slow;
-    }
-};
-```
 
 ### java
 

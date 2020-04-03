@@ -24,32 +24,11 @@
 解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。
 ```
 
-## 解题思想
+## 解题思路
 
 利用两个变量minPrice和maxProfit，遍历数组，minPrice用来记录当前为止的最小价格，maxProfit用来记录当前为止的最大收益，更新这两个变量即可。
 
 ## 解题代码
-
-### C++
-
-```cpp
-class Solution {
-public:
-    int maxProfit(vector<int>& prices) {
-        if(prices.size() < 2)
-            return 0;
-        int minPrice = INT_MAX;
-        int maxProfit = 0;
-        for(int i = 0; i < prices.size(); i++){
-            if(prices[i] < minPrice)
-                minPrice = prices[i];
-            else
-                maxProfit = max(maxProfit, prices[i] - minPrice);
-        }
-        return maxProfit;
-    }
-};
-```
 
 ### Java
 

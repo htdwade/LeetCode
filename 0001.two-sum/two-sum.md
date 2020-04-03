@@ -15,33 +15,11 @@
 所以返回 [0, 1]
 ```
 
-## 解题思想
+## 解题思路
 
 使用哈希表。在进行迭代并将元素插入到表中的同时，检查表中是否已经存在当前元素所对应的目标元素。如果它存在，那我们已经找到了对应解，并立即将其返回。
 
 ## 解题代码
-
-### C++
-
-```cpp
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> hash;
-        vector<int> res;
-        for(int i = 0; i < nums.size(); i++){
-            int numToFind = target - nums[i];
-            if(hash.find(numToFind) != hash.end()){
-                res.push_back(hash[numToFind]);
-                res.push_back(i);
-                break;
-            }
-            hash[nums[i]] = i;
-        }
-        return res;
-    }
-};
-```
 
 ### Java
 

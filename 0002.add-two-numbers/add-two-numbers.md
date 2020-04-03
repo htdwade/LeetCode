@@ -15,43 +15,11 @@
 原因：342 + 465 = 807
 ```
 
-## 解题思想
+## 解题思路
 
 模拟竖式加法，注意进位问题。
 
 ## 解题代码
-
-### C++
-
-```cpp
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
-class Solution {
-public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* dummy = new ListNode(-1);
-        ListNode* cur = dummy;
-        int extra = 0;
-        while(l1 != nullptr || l2 != nullptr || extra != 0) {
-            int sum = (l1 ? l1 -> val : 0) + (l2 ? l2 -> val : 0) + extra;
-            extra = sum / 10;
-            cur -> next = new ListNode(sum % 10);
-            cur = cur -> next;
-            if(l1 != nullptr)
-                l1 = l1 -> next;
-            if(l2 != nullptr)
-                l2 = l2 -> next;
-        }
-        return dummy -> next;
-    }
-};
-```
 
 ### Java
 

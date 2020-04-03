@@ -13,26 +13,11 @@
 * 必须在原数组上操作，不能拷贝额外的数组。
 * 尽量减少操作次数。
 
-## 解题思想
+## 解题思路
 
 双指针思想。index指针用来维护非零值窗口的右边界，i指针用来遍历数组，碰到非0值就交换nums[i]和nums[index]的值。
 
 ## 解题代码
-
-### C++
-
-```cpp
-class Solution {
-public:
-    void moveZeroes(vector<int>& nums) {
-        // [0...index)维护非0值窗口
-        int index = 0;
-		for (int i = 0; i < nums.size(); i++)
-			if (nums[i] != 0)
-                swap(nums[i], nums[index++]);
-    }
-};
-```
 
 ### Java
 
